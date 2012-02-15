@@ -1,4 +1,4 @@
-# Generated from dm-migrations-1.2.0.gem by gem2rpm5 -*- rpm-spec -*-          
+# Generated from dm-migrations-1.2.0.gem by gem2rpm5 -*- rpm-spec -*-
 %define	rbname	dm-migrations
 
 Summary:	DataMapper plugin for writing and speccing migrations
@@ -44,14 +44,13 @@ Documents, RDoc & RI documentation for %{name}.
 %dir %{ruby_gemdir}/gems/%{rbname}-%{version}/lib/dm-migrations/adapters/
 %dir %{ruby_gemdir}/gems/%{rbname}-%{version}/lib/dm-migrations/exceptions
 %dir %{ruby_gemdir}/gems/%{rbname}-%{version}/lib/dm-migrations/sql
+%{ruby_gemdir}/gems/%{rbname}-%{version}/lib/*.rb
+%{ruby_gemdir}/gems/%{rbname}-%{version}/lib/dm-migrations/*.rb
 %{ruby_gemdir}/gems/%{rbname}-%{version}/lib/dm-migrations/exceptions/*.rb
 %{ruby_gemdir}/gems/%{rbname}-%{version}/lib/dm-migrations/adapters/*.rb
 %{ruby_gemdir}/gems/%{rbname}-%{version}/lib/dm-migrations/sql/*.rb
 %{ruby_gemdir}/gems/%{rbname}-%{version}/lib/spec/example/*.rb
 %{ruby_gemdir}/gems/%{rbname}-%{version}/lib/spec/matchers/*.rb
-%{ruby_gemdir}/gems/%{rbname}-%{version}/lib/*.rb
-%dir %{ruby_gemdir}/gems/%{rbname}-%{version}/lib/dm-migrations
-%{ruby_gemdir}/gems/%{rbname}-%{version}/lib/dm-migrations/*.rb
 %{ruby_gemdir}/specifications/%{rbname}-%{version}.gemspec
 
 %files doc
